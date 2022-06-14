@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1d2e599ac3.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="images/logo_transparent.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/media.css">
+
+
+    <title>Local market - Commandes ce que tu veux,proche de chez toi!</title>
+
+</head>
+<body>
+<!-------------------------------------------------------Header------------------------------------------------------->
+    <header>
+        <div class="blocLogo">
+            <a href="../index.html">
+                <img class="logo" src="../images/Logo Local Market.png" alt="Logo">
+            </a>
+        </div>
+        <div class="cityAccount"><!--bloc pour le choix de la ville-->
+            <div class="resultCity">
+                <p></p>
+            </div>
+            <select name="cityChoice" class="cityChoice btn btn-outline-warning" id="cityChoice">
+                <option value="Choisissez votre ville" >Votre ville</option>
+                <option value="caen">Caen</option>
+                <option value="rennes" disabled>Rennes - en cours de création</option>
+                <option value="rouen" disabled>Rouen - en cours de création</option>
+            </select>
+            <!-- <button type="submit" class="btn btn-outline-warning btn-city">Ok</button> -->
+        </div> 
+        <div class="search">
+            <div class="searchBar">
+                <form class="d-flex">
+                  <input class="form-control  me-2" type="search" placeholder="Qu'est-ce qui vous ferait plaisir?" aria-label="Search">
+                  <a href="" id="searchBar"><img src="../icones/loupe.svg" class="loupe" alt="logo de loupe"></a>                </form>
+              </div>
+        </div>
+        <div class="blocAccount"><!--bloc pour se connecter ou s'enregistrer-->
+            <a href="connexion.html">Connexion / S'enregistrer</a>
+
+            <!--Bloc panier-->
+        </div> 
+            <div class="dropdown">
+                <div class="cart">
+                    <a href="panier.html"><img class="icoPanier" src="../icones/panier_white.png" alt="icone panier"></a>
+                    <p><span id="in-cart-items-num">0</span></p>
+                    <p><a href="panier.html">Panier</a></p>
+                </div>
+            </div> 
+    </header>
+
+
+
+
+    <p>
+        Identité
+
+Nom du site web : < Nom du site >
+Adresse : < https://nomdusite.domaine >
+Propriétaire : < propriétaire >
+Responsable de publication : < nom du contact >
+
+Conception et réalisation : < concepteur >
+Animation : < animateur >
+Hébergement : < hébergeur >
+Personne morale (retirer ce bloc au besoin)
+
+< ‘Raison sociale’ – ‘Forme juridique’ au capital de XXX XXX euros – RCS XXXXXX – ‘Adresse complète’ >
+< ‘Téléphone’ – ‘Email’ >
+Conditions d’utilisation
+
+L’utilisation du présent site implique l’acceptation pleine et entière des conditions générales d’utilisation décrites ci-après. Ces conditions d’utilisation sont susceptibles d’être modifiées ou complétées à tout moment.
+Informations
+
+Les informations et documents du site sont présentés à titre indicatif, sans de caractère exhaustif, et ne peuvent engager la responsabilité du propriétaire du site.
+
+Le propriétaire du site ne peut être tenu responsable des dommages directs et indirects consécutifs à l’accès au site.
+Interactivité
+
+Les utilisateurs du site peuvent y déposer du contenu, apparaissant sur le site dans des espaces dédiés (notamment via les commentaires). Le contenu déposé reste sous la responsabilité de leurs auteurs, qui en assument pleinement l’entière responsabilité juridique.
+
+Le propriétaire du site se réserve néanmoins le droit de retirer sans préavis et sans justification tout contenu déposé par les utilisateurs qui ne satisferait pas à la charte déontologique du site ou à la législation en vigueur.
+Propriété intellectuelle
+
+Sauf mention contraire, tous les éléments accessibles sur le site (textes, images, graphismes, logo, icônes, sons, logiciels, etc.) restent la propriété exclusive de leurs auteurs, en ce qui concerne les droits de propriété intellectuelle ou les droits d’usage. 1
+
+Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de l’auteur.23
+
+Toute exploitation non autorisée du site ou de l’un quelconque des éléments qu’il contient est considérée comme constitutive d’une contrefaçon et passible de poursuites. 4
+
+Les marques et logos reproduits sur le site sont déposés par les sociétés qui en sont propriétaires.
+Liens
+
+Liens sortants
+Le propriétaire du site décline toute responsabilité et n’est pas engagé par le référencement via des liens hypertextes, de ressources tierces présentes sur le réseau Internet, tant en ce qui concerne leur contenu que leur pertinence.
+
+Liens entrants
+Le propriétaire du site autorise les liens hypertextes vers l’une des pages de ce site, à condition que ceux-ci ouvrent une nouvelle fenêtre et soient présentés de manière non équivoque afin d’éviter :
+
+    tout risque de confusion entre le site citant et le propriétaire du site
+    ainsi que toute présentation tendancieuse, ou contraire aux lois en vigueur.
+
+Le propriétaire du site se réserve le droit de demander la suppression d’un lien s’il estime que le site source ne respecte pas les règles ainsi définies.
+Confidentialité
+
+Tout utilisateur dispose d’un droit d’accès, de rectification et d’opposition aux données personnelles le concernant, en effectuant sa demande écrite et signée, accompagnée d’une preuve d’identité. 5678
+
+Le site ne recueille pas d’informations personnelles, et n’est pas assujetti à déclaration à la CNIL. 9
+Crédits
+
+< crédits photo, icones, etc. >
+
+Mentions légales fournies par WebExpress – Version 1.6 – Utilisation libre sous Licence Creative Commons CC BY-NC-ND 3.0 FR / creativecommons.org.
+
+    Articles L111-1 et suivants du Code de la Propriété Intellectuelle du 1er juillet 1992 ↩
+    Article 41 de la loi du 11 mars 1957 ↩
+    Article L. 226-13 du Code pénal et la Directive Européenne du 24 octobre 1995 ↩
+    Articles L.335-2 et suivants du Code de Propriété Intellectuelle ↩
+    Loi n° 78-87 du 6 janvier 1978, modifiée par la loi n° 2004-801 du 6 août 2004, relative à l’informatique, aux fichiers et aux libertés ↩
+    Articles 38 et suivants de la loi 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés ↩
+    Loi du 1er juillet 1998 transposant la directive 96/9 du 11 mars 1996 relative à la protection juridique des bases de données ↩
+    Loi n° 2004-801 du 6 août 2004 ↩
+    Article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique ↩
+
+        
+        
+    </p>
+
+
+
+
+        
+
+    <!-------------------------------------------------------footer------------------------------------------------------->
+
+    <footer>
+        <div class="newsLetter">  <!-- div de la newsletter-->
+            <h5>LA NEWSLETTER</h5>
+            <p>Et avec ceci, vous voudrez sûrement un peu plus d'actu' et de bons plans ? <br>
+                Abonnez-vous à notre newsletter pour tout savoir de la vie locale !</p>
+            <form class="formNewsletter" action="">
+                <input type="email" name="emailNewsletter" id="emailNewsletter" placeholder="Votre e-mail">
+                <button type="submit" class="btn btn-outline-warning">Je m'abonne</button>
+            </form>
+            <p class="legiNewsletter">
+                Conformément à la réglementation relative à la protection des données à caractère personnel, E-SY COM traite vos données en qualité de responsable de traitement à des fins de gestion de la newsletter. Vous disposez d'un droit d'accès, de rectification, d'opposition, de limitation, de portabilité et d'effacement des données. Ces droits peuvent être exercés en écrivant à l'adresse suivante : <a href="">rgpd@mlocalmarket.fr</a> rgpd@localmarket.fr. Pour plus d'informations sur le traitement de vos données personnelles, consultez la <a href="">Politique de confidentialité</a> de localmarket.fr. </p>
+        </div>
+        <div class="blocFooter"> <!-- div du reste du footer-->
+            <div class="aPropos">
+                <h4>A propos</h4>
+                    <p><a href="leChoixDuLocal.html">Qui sommes-nous?</a></p>
+                    <div class="blocSocial">
+                        <p><a class="iconFooter" href="#"><img class="imgIconFooter" src="../icones/facebook_white.png" alt="Facebook">
+                        <p><a class="iconFooter" href="#"><img class="imgIconFooter" src="../icones/insta white.png" alt="Instagram">
+                        <p><a class="iconFooter" href="#"><img class="imgIconFooter" src="../icones/twitter.png" alt="Twitter"></a></p>  
+                    </div>
+                <h4>Découvrez l'application <br> Local Market</h4>
+            </div>
+            <div>
+                <h4>Commerçants</h4>
+                    <div class="pHover"><a href="#">Rejoindre la marketplace</a></div class="pHover">
+                    <div class="pHover"><a href="#">Pack Starter</a></div class="pHover">
+                    <div class="pHover"><a href="#">Pack Booster</a></div class="pHover">
+                    <div class="pHover"><a href="#">Pack Communication</a></div class="pHover">
+                <h4>Partenaires</h4>
+                    <div class="pHover"><a href="#">Devenir Partenaire</a></div class="pHover">
+                    <div class="pHover"><a href="#">Nos territoires partenaires</a></div class="pHover">
+                    
+            </div>
+            <div>
+                <h4>Informations</h4>
+                    <div class="pHover"><a href="../contact.html">Contact</a></div>
+                    <div class="pHover"><a href="#">Foire Aux Questions</a></div>
+                    <div class="pHover"><a href="Autres pages/livraisons.html">Modes de livraisons</a></div>
+                    <div class="pHover"><a href="#">Politique de confidentialité</a></div>
+                    <div class="pHover"><a href="#">Politique des cookies</a></div>
+                    <div class="pHover"><a href="#">Paramétrer les cookies</a></div>
+            </div>
+            <div class="blocLogoFooter">
+                <a href="../index.html"><img class="logoFooter" src="../images/Logo Local Market.png" alt=""></a> 
+            </div>
+        </div>
+        <hr>
+        <div class="mention">
+            <p>&copy; localmarket.fr 2022 • Tous droits réservés</p>
+            <p><a href="">Conditions Générales de la MarketPlace</a></p>
+            <p><a href="mentionsLegales.html">Mentions légales </a></p>
+        </div>
+            
+    </footer>
+
+<!--------------------------------------scroll pour retour haut de page------------------------------------ -->
+<div id="scrollUp"> 
+    <a href="#top"><img src="../img/to_top.png"/></a>
+  </div>
+</footer>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../json.json"></script>
+<script src="../js/panier.js"></script>
+<script src="../js/js.js"></script>
+</body>
+</html>
+    
+
+
+
+
+
+
+
